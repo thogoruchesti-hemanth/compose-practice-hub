@@ -58,7 +58,7 @@ A high-fidelity financial dashboard featuring staggered entrance animations, a c
 
 | Day 1: Crypto Dashboard | Preview | Preview |
 |:---:|:---:|:---:|
-| <a href="https://github.com/thogaruchesti-hemanth/compose-practice-hub/tree/feat/day-1-crypto-dashboard"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> | | |
+| <a href="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> | | |
 | `feat/day-1-crypto-dashboard` | | |
 | ⭐⭐⭐ Intermediate | | |
 
