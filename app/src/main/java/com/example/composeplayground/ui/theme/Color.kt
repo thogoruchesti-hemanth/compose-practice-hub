@@ -76,3 +76,10 @@ val md_theme_dark_inverseSurface = Color(0xFFE6E1E5)
 val md_theme_dark_inversePrimary = Color(0xFF6750A4)
 
 val md_theme_dark_surfaceTint = md_theme_dark_primary
+
+
+val BackgroundDark = Color(0xFF141414)
+val SurfaceCard = Color(0xFFFFFFFF)
+val SubtleGray = Color(0xFFF6F7F9)
+val TextMuted = Color(0xFF8E949D)
+val AccentGreen = Color(0xFF4CAF50)
