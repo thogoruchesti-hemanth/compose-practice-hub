@@ -421,17 +421,17 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 16.dp)
-            .height(86.dp)
-            .clip(RoundedCornerShape(36.dp))
+            .padding(horizontal = 20.dp, vertical = 20.dp)
+            .height(76.dp)
+            .clip(RoundedCornerShape(24.dp))
             .background(BottomNavBg),
         contentAlignment = Alignment.Center
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 24.dp),
-            horizontalArrangement = Arrangement.SpaceBetween,
+                .padding(horizontal = 12.dp),
+            horizontalArrangement = Arrangement.SpaceEvenly,
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconButton(onClick = {}) {
@@ -452,8 +452,8 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
             }
             Box(
                 modifier = Modifier
-                    .size(64.dp)
-                    .clip(RoundedCornerShape(22.dp))
+                    .size(56.dp)
+                    .clip(RoundedCornerShape(18.dp))
                     .background(AccentOrange),
                 contentAlignment = Alignment.Center
             ) {
@@ -461,7 +461,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.QrCodeScanner,
                     contentDescription = "Scan Meal",
                     tint = BottomNavBg,
-                    modifier = Modifier.size(32.dp)
+                    modifier = Modifier.size(28.dp)
                 )
             }
             IconButton(onClick = {}) {
