@@ -247,9 +247,15 @@ fun CalorieGaugeSection(
             val topLeft = Offset((size.width - diameter) / 2, 30.dp.toPx())
 
             val totalAngle = 180f
-            val spacingAngle = 6f
+            
+            // StrokeCap.Round adds length to the ends of the arc. 
+            // We must calculate that added angle to ensure our gap is visible.
+            val capAngle = (strokeWidth / diameter) * (180f / Math.PI.toFloat())
+            val visualGapAngle = 2.5f 
+            val spacingAngle = (capAngle * 2) + visualGapAngle
+
             val totalSpacing = spacingAngle * (totalSegments - 1)
-            val sweepAnglePerSegment = (totalAngle - totalSpacing) / totalSegments
+            val sweepAnglePerSegment = ((totalAngle - totalSpacing) / totalSegments).coerceAtLeast(0.5f)
 
             for( i in 0 until totalSegments) {
                 val startAngle = 180f + i * (sweepAnglePerSegment + spacingAngle)
