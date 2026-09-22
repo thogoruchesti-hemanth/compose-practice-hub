@@ -85,15 +85,16 @@ data class MealItem(
     val goalPercent: Int,
     val protein: Int,
     val carbs: Int,
-    val fat: Int
+    val fat: Int,
+    val emoji: String
 )
 
 
 @Composable
 fun NutritionDashboardScreen() {
     val meals = listOf(
-        MealItem("Lunch", "02:30 PM", 693,35,48,83,25),
-        MealItem("BreakFast", "11:30 AM", 500,25,36,57,14)
+        MealItem("Lunch", "02:30 PM", 693, 35, 48, 83, 25, "🥗"),
+        MealItem("BreakFast", "11:30 AM", 500, 25, 36, 57, 14, "🍳")
     )
 
     Box(
@@ -121,8 +122,8 @@ fun NutritionDashboardScreen() {
                         currentCalories = 1250,
                         goalCalories = 2000,
                         date = "20 Aug",
-                        totalSegments = 10,
-                        filledSegments = 6
+                        totalSegments = 8,
+                        filledSegments = 5
                     )
                 }
 
@@ -230,8 +231,8 @@ fun CalorieGaugeSection(
     currentCalories: Int,
     goalCalories: Int,
     date: String,
-    totalSegments: Int = 10,
-    filledSegments: Int = 6
+    totalSegments: Int = 8,
+    filledSegments: Int = 5
 ) {
     Box(
         modifier = Modifier
@@ -240,13 +241,13 @@ fun CalorieGaugeSection(
         contentAlignment = Alignment.TopCenter
     ) {
         Canvas(modifier = Modifier.fillMaxSize())  {
-            val strokeWidth = 34.dp.toPx()
-            val diameter = size.width - strokeWidth - 48.dp.toPx()
+            val strokeWidth = 46.dp.toPx()
+            val diameter = size.width - strokeWidth - 40.dp.toPx()
             val arcSize = Size(diameter, diameter)
             val topLeft = Offset((size.width - diameter) / 2, 30.dp.toPx())
 
             val totalAngle = 180f
-            val spacingAngle = 5f
+            val spacingAngle = 6f
             val totalSpacing = spacingAngle * (totalSegments - 1)
             val sweepAnglePerSegment = (totalAngle - totalSpacing) / totalSegments
 
@@ -321,14 +322,12 @@ fun MealLogCard(meal: MealItem) {
                     modifier = Modifier
                         .size(56.dp)
                         .clip(CircleShape)
-                        .background(AccentOrange.copy(alpha = 0.2f)),
+                        .background(Color(0xFFF3F1EC)),
                     contentAlignment = Alignment.Center
                 ) {
-                    Icon(
-                        imageVector = Icons.Default.Fastfood,
-                        contentDescription = meal.title,
-                        tint = AccentOrange,
-                        modifier = Modifier.size(28.dp)
+                    Text(
+                        text = meal.emoji,
+                        fontSize = 32.sp
                     )
                 }
 
@@ -416,16 +415,16 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 24.dp, vertical = 24.dp)
-            .height(72.dp)
-            .clip(RoundedCornerShape(32.dp))
+            .padding(horizontal = 20.dp, vertical = 24.dp)
+            .height(80.dp)
+            .clip(RoundedCornerShape(40.dp))
             .background(BottomNavBg),
         contentAlignment = Alignment.Center
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp),
+                .padding(horizontal = 20.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -447,8 +446,8 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
             }
             Box(
                 modifier = Modifier
-                    .size(50.dp)
-                    .clip(RoundedCornerShape(16.dp))
+                    .size(56.dp)
+                    .clip(RoundedCornerShape(20.dp))
                     .background(AccentOrange),
                 contentAlignment = Alignment.Center
             ) {
@@ -456,7 +455,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.QrCodeScanner,
                     contentDescription = "Scan Meal",
                     tint = BottomNavBg,
-                    modifier = Modifier.size(26.dp)
+                    modifier = Modifier.size(28.dp)
                 )
             }
             IconButton(onClick = {}) {
