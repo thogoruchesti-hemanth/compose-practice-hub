@@ -421,16 +421,16 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 20.dp, vertical = 24.dp)
-            .height(80.dp)
-            .clip(RoundedCornerShape(40.dp))
+            .padding(horizontal = 16.dp, vertical = 16.dp)
+            .height(86.dp)
+            .clip(RoundedCornerShape(36.dp))
             .background(BottomNavBg),
         contentAlignment = Alignment.Center
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 20.dp),
+                .padding(horizontal = 24.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -439,7 +439,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.Home,
                     contentDescription = "Home",
                     tint = AccentOrange,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
             IconButton(onClick = {}) {
@@ -447,13 +447,13 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.MenuBook,
                     contentDescription = "Log",
                     tint = Color.White,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
             Box(
                 modifier = Modifier
-                    .size(56.dp)
-                    .clip(RoundedCornerShape(20.dp))
+                    .size(64.dp)
+                    .clip(RoundedCornerShape(22.dp))
                     .background(AccentOrange),
                 contentAlignment = Alignment.Center
             ) {
@@ -461,7 +461,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.QrCodeScanner,
                     contentDescription = "Scan Meal",
                     tint = BottomNavBg,
-                    modifier = Modifier.size(28.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             }
             IconButton(onClick = {}) {
@@ -469,7 +469,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.Star,
                     contentDescription = "Favorites",
                     tint = Color.White,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
             IconButton(onClick = {}) {
@@ -477,7 +477,7 @@ fun BottomNavigationBar(modifier: Modifier = Modifier) {
                     imageVector = Icons.Default.Settings,
                     contentDescription = "Settings",
                     tint = Color.White,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
         }
