@@ -76,3 +76,14 @@ val md_theme_dark_inverseSurface = Color(0xFFE6E1E5)
 val md_theme_dark_inversePrimary = Color(0xFF6750A4)
 
 val md_theme_dark_surfaceTint = md_theme_dark_primary
+
+
+// MARK: - Color Palette
+val BgCream = Color(0xFFF7F5F0)
+val CardWhite = Color(0xFFFFFFFF)
+val AccentOrange = Color(0xFFFF9E66)
+val UnfilledSegmentColor = Color(0xFFE8E5DD)
+val ButtonPillBg = Color(0xFFEBE6DC)
+val TextDark = Color(0xFF1E1E1E)
+val TextSecondary = Color(0xFF8C8A87)
+val BottomNavBg = Color(0xFF202326)
