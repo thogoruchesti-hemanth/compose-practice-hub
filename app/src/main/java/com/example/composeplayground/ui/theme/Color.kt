@@ -1,10 +1,10 @@
 package com.example.composeplayground.ui.theme
+
 import androidx.compose.ui.graphics.Color
 
 /* ---------------- LIGHT THEME COLORS ---------------- */
 
 val md_theme_light_primary = Color(0xFF6750A4)
-val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFEADDFF)
 val md_theme_light_onPrimaryContainer = Color(0xFF21005D)
 
@@ -76,3 +76,11 @@ val md_theme_dark_inverseSurface = Color(0xFFE6E1E5)
 val md_theme_dark_inversePrimary = Color(0xFF6750A4)
 
 val md_theme_dark_surfaceTint = md_theme_dark_primary
+
+
+val BgLightGray = Color(0xFFF6F8FA)
+val TextPrimary = Color(0xFF111827)
+val TextSecondary = Color(0xFF8C95A3)
+val CardGreen = Color(0xFFBCE738)
+val CashbackGreen = Color(0xFFD7F57C)
+val CardBlack = Color(0xFF1B1D1F)
