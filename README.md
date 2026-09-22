@@ -28,9 +28,6 @@ A high-fidelity financial dashboard featuring staggered entrance animations, a c
 - `Animatable` for numerical count-up effects.
 - `LazyRow` & `LazyColumn` integration.
 
-#### 🎥 Watch the Showcase
-<a href="">**[Watch Day 1 Reel Placeholder]**</a>
-
 ---
 
 ## 🚀 Getting Started
