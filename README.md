@@ -20,6 +20,19 @@ The best way to master a declarative UI framework is through consistent, deliber
 
 ---
 
+## 🎯 Featured: Day 3 - Nutrition Dashboard 🥗
+A beautiful health and fitness tracking dashboard featuring custom Canvas drawing for progress arcs and a clean, spacious Material 3 design.
+
+**Key Learning Points:**
+- `Canvas` for drawing custom semi-circle progress gauges.
+- Managing spacing and proportions beautifully using `Modifier.weight` and `Arrangement`.
+- Complex multi-layered bottom navigation bars with floating center action buttons.
+
+#### 🎥 Watch the Showcase
+<a href="">**[Watch Day 3 Reel Placeholder]**</a>
+
+---
+
 ## 🎯 Featured: Day 2 - NeoBank Home Screen 💳
 A clean, modern banking app dashboard showcasing intricate Compose layouts, scrolling sections, overlapping elements, and subtle background text styling.
 
@@ -66,11 +79,11 @@ A high-fidelity financial dashboard featuring staggered entrance animations, a c
 
 ### 🚀 Featured Challenges (1 Screen Per Day)
 
-| Day 2: NeoBank Dashboard | Day 1: Crypto Dashboard | Preview |
+| Day 3: Nutrition Dashboard | Day 2: NeoBank Dashboard | Day 1: Crypto Dashboard |
 |:---:|:---:|:---:|
-| <a href="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3"><img src="https://github.com/user-attachments/assets/placeholder-day2" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> | |
-| `feat/day-2-neobank-home` | `feat/day-1-crypto-dashboard` | |
-| ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | |
+| <a href="https://github.com/thogaruchesti-hemanth/compose-practice-hub/tree/feat/day-3-nutrition-dashboard"><img src="https://github.com/user-attachments/assets/placeholder-day3" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3"><img src="https://github.com/user-attachments/assets/placeholder-day2" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |
+| `feat/day-3-nutrition-dashboard` | `feat/day-2-neobank-home` | `feat/day-1-crypto-dashboard` |
+| ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
 
 ### 🌱 Practice
 
