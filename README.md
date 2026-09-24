@@ -20,6 +20,19 @@ The best way to master a declarative UI framework is through consistent, deliber
 
 ---
 
+## 🎯 Featured: Day 4 - Wallet Dashboard 💳
+A modern, high-end fintech wallet dashboard featuring interactive stacked transaction cards with buttery-smooth spring physics animations, currency exchange rate tiles, balance visibility toggles, and custom Material 3 styling.
+
+**Key Learning Points:**
+- Custom vertical drag gestures (`detectVerticalDragGestures`) with drag dampening and spring physics (`spring` & `FastOutSlowInEasing`).
+- Advanced card stacking mechanics with dynamic scaling, elevation, and z-index ordering.
+- Modern mint gradient backgrounds, custom card action dividers, and floating bottom navigation bars.
+
+#### 🎥 Watch the Showcase
+<a href="">**[Watch Day 4 Reel Placeholder]**</a>
+
+---
+
 ## 🎯 Featured: Day 3 - Nutrition Dashboard 🥗
 A beautiful health and fitness tracking dashboard featuring custom Canvas drawing for progress arcs and a clean, spacious Material 3 design.
 
@@ -79,11 +92,11 @@ A high-fidelity financial dashboard featuring staggered entrance animations, a c
 
 ### 🚀 Featured Challenges (1 Screen Per Day)
 
-| Day 3: Nutrition Dashboard | Day 2: NeoBank Dashboard | Day 1: Crypto Dashboard |
-|:---:|:---:|:---:|
-| <a href="https://github.com/user-attachments/assets/7a7649ba-931b-44f3-aef7-7b74476b6195"><img src="https://github.com/user-attachments/assets/placeholder-day3" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3"><img src="https://github.com/user-attachments/assets/placeholder-day2" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |
-| `feat/day-3-nutrition-dashboard` | `feat/day-2-neobank-home` | `feat/day-1-crypto-dashboard` |
-| ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
+| Day 4: Wallet Dashboard | Day 3: Nutrition Dashboard | Day 2: NeoBank Dashboard | Day 1: Crypto Dashboard |
+|:---:|:---:|:---:|:---:|
+| <a href="https://github.com/user-attachments/assets/placeholder-wallet"><img src="https://github.com/user-attachments/assets/placeholder-wallet" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/7a7649ba-931b-44f3-aef7-7b74476b6195"><img src="https://github.com/user-attachments/assets/placeholder-day3" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3"><img src="https://github.com/user-attachments/assets/placeholder-day2" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9"><img src="https://github.com/user-attachments/assets/c8ed823c-1a0d-40e5-8cc0-3253b58b49cf" width="180" height="380"/></a> |
+| `feat/wallet-dashboard` | `feat/day-3-nutrition-dashboard` | `feat/day-2-neobank-home` | `feat/day-1-crypto-dashboard` |
+| ⭐⭐⭐ Advanced | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
 
 ### 🌱 Practice
 
