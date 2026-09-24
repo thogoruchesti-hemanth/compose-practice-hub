@@ -76,3 +76,12 @@ val md_theme_dark_inverseSurface = Color(0xFFE6E1E5)
 val md_theme_dark_inversePrimary = Color(0xFF6750A4)
 
 val md_theme_dark_surfaceTint = md_theme_dark_primary
+
+
+val MintBackgroundLight = Color(0xFFE2F6E9)
+val MintBackgroundDark = Color(0xFFC7EBD4)
+val NeonYellowCard = Color(0xFFFAFFA0)
+val DarkText = Color(0xFF14171A)
+val MutedText = Color(0xFF7A869A)
+val ExpenseRed = Color(0xFFC0392B)
+val PositiveGreen = Color(0xFF27AE60)
