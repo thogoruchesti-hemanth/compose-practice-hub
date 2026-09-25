@@ -42,6 +42,7 @@ android {
 dependencies {
 
 
+    implementation(libs.androidx.compose.ui.text)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -52,12 +53,11 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation(libs.androidx.foundation.layout.android)
-    implementation(libs.androidx.foundation.layout.android)
-    implementation(libs.androidx.foundation.layout.android)
     debugImplementation("androidx.compose.ui:ui-tooling")
 
     implementation("androidx.compose.material3:material3")
     implementation(libs.androidx.material.icons.extended)
+    implementation("io.coil-kt:coil-compose:2.7.0")
 
     implementation("androidx.navigation:navigation-compose:2.7.7")
 
