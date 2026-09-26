@@ -41,7 +41,7 @@ The best way to master a declarative UI framework is through consistent, deliber
 
 | Day 6: Food Delivery Dashboard | Day 5: Service Dashboard | Day 4: Wallet Dashboard |
 |:---:|:---:|:---:|
-| <a href="#"><img src="https://via.placeholder.com/180x380.png?text=Day+6" width="180" height="380"/></a> | <a href="#"><img src="https://via.placeholder.com/180x380.png?text=Day+5" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/01d5cd74-ac24-4fd4-b2c0-bea91c797f99"><img src="https://github.com/user-attachments/assets/placeholder-wallet" width="180" height="380"/></a> |
+| <a href="https://github.com/user-attachments/assets/a42392d8-8af4-45f4-bed5-ba13169e18cc"><img src="https://via.placeholder.com/180x380.png?text=Day+6" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/2906ff47-4696-4e31-94fd-1f2f7594682e"><img src=" https://github.com/user-attachments/assets/service-app-dashboard" width="180" height="380"/></a> | <a href="https://github.com/user-attachments/assets/01d5cd74-ac24-4fd4-b2c0-bea91c797f99"><img src="https://github.com/user-attachments/assets/placeholder-wallet" width="180" height="380"/></a> |
 | `feat/day-6-Food-delivery-dashboard` | `feat/day-5-service-dashboard` | `feat/wallet-dashboard` |
 | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Advanced |
 
