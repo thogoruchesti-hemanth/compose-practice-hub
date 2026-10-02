@@ -52,8 +52,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation(libs.androidx.foundation.layout.android)
-    implementation(libs.androidx.foundation.layout.android)
-    implementation(libs.androidx.foundation.layout.android)
+    implementation(libs.coil.compose)
     debugImplementation("androidx.compose.ui:ui-tooling")
 
     implementation("androidx.compose.material3:material3")
