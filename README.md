@@ -39,19 +39,27 @@ The best way to master a declarative UI framework is through consistent, deliber
 
 ### 🚀 Featured Challenges (1 Screen Per Day)
 
-| Day 6: Food Delivery Dashboard | Day 5: Service Dashboard | Day 4: Wallet Dashboard |
+| Day 7: Ice Cream Dashboard | Day 6: Food Delivery Dashboard | Day 5: Service Dashboard |
 |:---:|:---:|:---:|
-| <video src="https://github.com/user-attachments/assets/a42392d8-8af4-45f4-bed5-ba13169e18cc" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/2906ff47-4696-4e31-94fd-1f2f7594682e" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/01d5cd74-ac24-4fd4-b2c0-bea91c797f99" width="180" height="380" controls></video> |
-| `feat/day-6-Food-delivery-dashboard` | `feat/day-5-service-dashboard` | `feat/wallet-dashboard` |
-| ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Advanced |
+| <img src="https://github.com/user-attachments/assets/db7bd0b5-fa12-4217-a006-258385e0569a" width="180" height="380"/> | <video src="https://github.com/user-attachments/assets/a42392d8-8af4-45f4-bed5-ba13169e18cc" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/2906ff47-4696-4e31-94fd-1f2f7594682e" width="180" height="380" controls></video> |
+| `feat/day-7-Icrecream-dashboard` | `feat/day-6-Food-delivery-dashboard` | `feat/day-5-service-dashboard` |
+| ⭐⭐ Beginner | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
 
 <br>
 
-| Day 3: Nutrition Dashboard | Day 2: NeoBank Dashboard | Day 1: Crypto Dashboard |
+| Day 4: Wallet Dashboard | Day 3: Nutrition Dashboard | Day 2: NeoBank Dashboard |
 |:---:|:---:|:---:|
-| <video src="https://github.com/user-attachments/assets/7a7649ba-931b-44f3-aef7-7b74476b6195" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9" width="180" height="380" controls></video> |
-| `feat/day-3-nutrition-dashboard` | `feat/day-2-neobank-home` | `feat/day-1-crypto-dashboard` |
-| ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
+| <video src="https://github.com/user-attachments/assets/01d5cd74-ac24-4fd4-b2c0-bea91c797f99" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/7a7649ba-931b-44f3-aef7-7b74476b6195" width="180" height="380" controls></video> | <video src="https://github.com/user-attachments/assets/2e289f24-192b-456a-bf12-31d01d852ff3" width="180" height="380" controls></video> |
+| `feat/wallet-dashboard` | `feat/day-3-nutrition-dashboard` | `feat/day-2-neobank-home` |
+| ⭐⭐⭐ Advanced | ⭐⭐⭐ Intermediate | ⭐⭐⭐ Intermediate |
+
+<br>
+
+| Day 1: Crypto Dashboard | | |
+|:---:|:---:|:---:|
+| <video src="https://github.com/user-attachments/assets/1204c907-9907-4a27-abf5-673e21fbb9a9" width="180" height="380" controls></video> | | |
+| `feat/day-1-crypto-dashboard` | | |
+| ⭐⭐⭐ Intermediate | | |
 
 ### 🌱 Practice
 
